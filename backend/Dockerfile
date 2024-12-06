@@ -9,8 +9,8 @@ COPY . .
 
 ENV APP_ENV=production
 ENV APP_PORT=8080
-ENV MODEL_URL="https://storage.googleapis.com/asclepius-image/model/model.json"
-ENV PROJECT_ID="https://storage.googleapis.com/asclepius-image/model/model.jsons"
+ENV MODEL_URL=""
+ENV PROJECT_ID=""
 
 CMD [ "npm", "start" ]
 
